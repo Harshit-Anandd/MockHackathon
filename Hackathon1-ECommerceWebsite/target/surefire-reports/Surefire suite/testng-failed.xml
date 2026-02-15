@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="tests.AuthenticationTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tc03LoginWithInvalidCredentials"/>
+          <include name="tc05RegisterWithExistingEmail"/>
+          <include name="tc01RegisterUser"/>
+          <include name="tc02LoginWithValidCredentials"/>
+          <include name="tc04LogoutUser"/>
+        </methods>
+      </class> <!-- tests.AuthenticationTests -->
+      <class name="tests.CartAndCheckoutTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tc12AddProductsInCart"/>
+          <include name="tc13VerifyProductQuantityInCart"/>
+          <include name="tc15PlaceOrderRegisterBeforeCheckout"/>
+          <include name="tc14PlaceOrderRegisterWhileCheckout"/>
+          <include name="tc11VerifySubscriptionInCartPage"/>
+        </methods>
+      </class> <!-- tests.CartAndCheckoutTests -->
+      <class name="tests.EngagementAndCatalogTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tc09SearchProduct"/>
+          <include name="tc10VerifySubscriptionInHomePage"/>
+          <include name="tc07VerifyTestCasesPage"/>
+          <include name="tc08VerifyAllProductsAndProductDetail"/>
+          <include name="tc06ContactUsForm"/>
+        </methods>
+      </class> <!-- tests.EngagementAndCatalogTests -->
+      <class name="tests.AdvancedCommerceTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tc18ViewCategoryProducts"/>
+          <include name="tearDown"/>
+          <include name="tc20SearchProductsAndVerifyCartAfterLogin"/>
+          <include name="tc17RemoveProductsFromCart"/>
+          <include name="tc19ViewAndCartBrandProducts"/>
+          <include name="tc16PlaceOrderLoginBeforeCheckout"/>
+        </methods>
+      </class> <!-- tests.AdvancedCommerceTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

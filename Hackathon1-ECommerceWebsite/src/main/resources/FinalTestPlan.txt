@@ -1,0 +1,115 @@
+AUTOMATION TEST PLAN REPORT Project: Automation Testing for automationexercise.com
+Website: https://automationexercise.com/
+Prepared By: Team ACE
+
+  ------------------------
+  1. SCOPE OF AUTOMATION
+  ------------------------
+
+Features to be Automated:
+
+TC01 - Register User
+TC02 - Login User with correct email and password
+TC03 - Login User with incorrect email and password
+TC04 - Logout User
+TC05 - Register User with existing email
+TC06 - Contact Us Form
+TC07 - Verify Test Cases Page
+TC08 - Verify All Products and Product Detail Page
+TC09 - Search Product
+TC10 - Verify Subscription in Home Page
+TC11 - Verify Subscription in Cart Page
+TC12 - Add Products in Cart
+TC13 - Verify Product Quantity in Cart
+TC14 - Place Order: Register while Checkout
+TC15 - Place Order: Register before Checkout
+TC16 - Place Order: Login before Checkout
+TC17 - Remove Products from Cart
+TC18 - View Category Products
+TC19 - View & Cart Brand Products
+TC20 - Search Products and Verify Cart After Login
+
+Types of Tests to be Automated:
+- Smoke Testing
+- Regression Testing
+- UI Testing
+- Performance Testing
+
+  -----------------------------
+  2. OBJECTIVES OF AUTOMATION
+  -----------------------------
+
+Automation testing is implemented to achieve the following goals:
+
+-   Reduce manual regression testing effort.
+-   Increase test execution speed and coverage.
+-   Ensure stable and repeatable validation of features.
+-   Improve product quality before releases.
+-   Enable frequent execution in CI/CD environments.
+-   Detect defects earlier in development cycles.
+
+  -----------------------------
+  3. TOOLS & TECHNOLOGY STACK
+  -----------------------------
+
+UI Automation Tool: Selenium WebDriver
+Programming Language: Java
+Test Framework: TestNG / JUnit
+Build Tool: Maven
+Reporting Tool: Extent Reports
+Version Control System: Git
+
+  ----------------------------------
+  4. AUTOMATION FRAMEWORK APPROACH
+  ----------------------------------
+
+A Hybrid Automation Framework is used which combines:
+
+-   Modular design approach
+-   Data-driven execution
+-   Reusable test components
+-   Page Object Model (POM) structure
+
+This approach improves maintainability, scalability, and reusability.
+
+  -----------------------------
+  5. TEST ENVIRONMENT DETAILS
+  -----------------------------
+
+Operating Systems Supported:
+- Windows
+- Linux
+
+Supported Browsers:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+
+Environment Access:
+- Database access required for validation and test setup
+
+  -----------------------
+  6. TEST DATA STRATEGY
+  -----------------------
+
+-   Test data is maintained and validated using XML-based test reports.
+-   Dynamic and reusable test data will be used where applicable.
+-   Data cleanup or reset mechanisms are used when required.
+
+  ------------------------
+  7. REPORTING & METRICS
+  ------------------------
+
+Automation execution generates reports containing:
+
+Metrics captured:
+- Pass/Fail rate of test cases
+- Automation coverage percentage
+- Execution time per run
+- Failure trends and analysis
+
+Extent Reports and XML reports are used for analysis and tracking.
+
+  -----------------
+  END OF DOCUMENT
+  -----------------
