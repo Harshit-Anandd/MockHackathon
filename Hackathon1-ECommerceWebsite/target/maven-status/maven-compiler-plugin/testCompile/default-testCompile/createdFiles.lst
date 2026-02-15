@@ -1,0 +1,9 @@
+pages\ProductsPage.class
+pages\CartPage.class
+tests\EngagementAndCatalogTests.class
+tests\CartAndCheckoutTests.class
+pages\ContactUsPage.class
+tests\AdvancedCommerceTests.class
+pages\PaymentPage.class
+pages\TestCasesPage.class
+pages\CheckoutPage.class
